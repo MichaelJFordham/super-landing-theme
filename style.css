@@ -1,3 +1,4 @@
+/* These are the main colours used in the template - feel free to customise them to suit your brand! */
 :root {
   --background-color: #fffffc;
   --main-color: #9A2FA5;
@@ -8,10 +9,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* This gets rid of the top navigation bar from Notion */
 .notion-topbar, .notion-navbar, .notion-header__title  {
   display: none;
 }
 
+/* This removes the icon from the callouts we use */
 .notion-callout__icon {
   display: none;
 }
@@ -23,6 +26,7 @@ body {
   font-weight: 400;
 }
 
+/* This is used for the text under the heading on the page */
 .notion-callout {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
@@ -31,6 +35,7 @@ body {
   border: none !important;
 }
 
+/* This is used for the main CTA of the page */
 .notion-link {
   text-align: center;
   display: block;
@@ -67,6 +72,7 @@ h2 {
   margin: 0px !important;
 }
 
+/* These are the additional links at the end of the page */
 .notion-list-item .notion-semantic-string .notion-link {
   text-align: left;
   display: inline-block;
@@ -90,6 +96,7 @@ h2 {
   padding-left: 2px;
 }
 
+/* These are media queries for making the site behave nicely on smaller devices */
 @media only screen and (max-width: 600px) {
   .notion-link {
     max-width: 80%;
